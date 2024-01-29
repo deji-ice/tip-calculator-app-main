@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h2 style="text-align: center" class="">Tip<br />Smart</h2>
+    <main>
+      <div id="left">
+        <div class="bill">
+          <label for="bill" class="space-mono-bold texts">Bill</label>
+          <input type="number" placeholder="0" />
+        </div>
+        <div class="select">
+          <label for="tip" class="space-mono-bold texts">Select Tip %</label>
+          <div class="grid">
+            <button>5%</button>
+            <button>10%</button>
+            <button>15%</button>
+            <button>25%</button>
+            <button>50%</button>
+            <input placeholder="CUSTOM" type="number" />
+          </div>
+        </div>
+        <div class="people">
+          <label for="people" class="space-mono-bold texts">Number of People</label>
+          <input type="number" placeholder="0" />
+        </div>
+      </div>
+      <div id="right">
+        <div class="calc">
+          <div class="output">
+            <div>
+              <p  class="title">Tip Amount</p>
+              <p class="subTitle">/ person</p>
+            </div>
+            <span  id="tip"><span>&#8358;</span>0.00</span>
+          </div>
+          <div class="output">
+            <div>
+              <p class="title">Total</p>
+              <p class="subTitle">/ person</p>
+            </div>
+            <span id="total"><span>&#8358;</span>0.00</span>
+          </div>
+        </div>
+        <button id="reset">RESET</button>
+      </div>
+    </main>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
