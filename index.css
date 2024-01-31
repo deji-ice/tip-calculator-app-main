@@ -30,9 +30,6 @@ input::-webkit-inner-spin-button {
   flex-direction: column;
   gap: 20px;
 }
-.num{
-
-}
 
 /* Firefox */
 input[type="number"] {
@@ -114,7 +111,6 @@ main {
   flex-direction: column;
   gap: 3px;
 }
-
 .img{
   position: absolute;
   height: 14px;
@@ -129,6 +125,7 @@ input {
   background: hsl(189, 41%, 97%);
   font-family: "Space Mono", monospace;
   font-size: 18px;
+  padding-right: 10px;
 }
 button{
   font-family: "Space Mono", monospace;
@@ -153,19 +150,20 @@ input:focus {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-#tip{
+.tip{
   
     font-family: 'Space Mono', monospace;
     color: hsl(172, 67%, 45%);
     font-weight: 700;
     font-size: 32px;
+    display: flex;
 }
-#total{
-  
+.total{
   font-family: 'Space Mono', monospace;
   color: hsl(172, 67%, 45%);
   font-weight: 700;
   font-size: 32px;
+  display: flex;
 }
 #reset{
   background-color: hsl(172, 67%, 45%);
