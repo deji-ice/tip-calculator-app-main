@@ -44,6 +44,7 @@ input[type="number"] {
 ::placeholder {
   font-family: "Space Mono", monospace;
   font-weight: 700;
+  
 }
 main {
   background-color: white;
@@ -71,6 +72,7 @@ main {
   background-color: hsl(183, 100%, 15%);
 }
 .bill {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 3px;
@@ -104,19 +106,29 @@ main {
 .select input {
   width: 6rem;
   font-size: 20px;
+  text-align: center;
 }
 .people {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
 
+.img{
+  position: absolute;
+  height: 14px;
+  top: 34px;
+  left: 10px;
+}
 input {
+  text-align: right;
   height: 2.3rem;
   border-radius: 5px;
   border: none;
   background: hsl(189, 41%, 97%);
   font-family: "Space Mono", monospace;
+  font-size: 18px;
 }
 button{
   font-family: "Space Mono", monospace;
