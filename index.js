@@ -11,12 +11,12 @@ const twenty = document.getElementById("twenty");
 const fifty = document.getElementById("fifty");
 
 function tip_Calc(value) {
-  if (!isNaN(bill.value) || !isNaN(people.value) || !isNaN(custom.value)) {
-    alert(
-      "Invalid input. Please enter valid positive numeric values for Bill and People"
-    );
-    return;
-  }
+//   if (isNaN(bill.value) || isNaN(people.value) || isNaN(custom.value)) {
+//     alert(
+//       "Invalid input. Please enter valid positive numeric values for Bill and People"
+//     );
+//     return;
+//   }
   console.log(value);
   const percent = value / 100;
   const billAmount = bill.value / people.value;
