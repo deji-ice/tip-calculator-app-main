@@ -54,6 +54,14 @@ custom.addEventListener("change", function () {
 ten.addEventListener("click", function () {
   tip_Calc(10);
 });
+
+reset.addEventListener( 'click', function() {
+  bill.value=''
+  people.value=''
+  custom.value=''
+  tip.textContent = '0.00';
+  total.textContent = '0.00';
+})
 // fifteen.addEventListener("click", tip_Calc(15));
 // twenty.addEventListener("click", tip_Calc(25));
 // fifty.addEventListener("click", tip_Calc(50));
